@@ -1,4 +1,4 @@
-from python_opencv_101 import add, greeting
+from opencv_toolkit import add, greeting
 
 
 def test_add():

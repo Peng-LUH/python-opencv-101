@@ -29,3 +29,7 @@ select = ["E", "F", "I"]
 [build-system]
 requires = ["uv_build>=0.9.28,<0.10.0"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "opencv_toolkit"
+module-root = "src"

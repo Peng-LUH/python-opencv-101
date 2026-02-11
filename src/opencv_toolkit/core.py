@@ -28,3 +28,16 @@ def rescale_frame(frame: Optional[MatLike], scale: float) -> Optional[MatLike]:
     dimensions = (width, height)
 
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
+
+
+# def change_resolution(width: int, height: int):
+#     """
+#     change the resolution for live videos
+
+#     :param width: Description
+#     :type width: int
+#     :param height: Description
+#     :type height: int
+#     """
+#     capture.set(3, width)
+#     capture.set(4, height)
